@@ -1,0 +1,10 @@
+taskKey="ua.javarush.task.pro.task13.task1321"\n\nЗі switch на if
+
+У класі Solution є метод getTranslationForDayOfWeek(String), який повертає переклад назви дня тижня з української на англійську. Твоє завдання &mdash; переписати метод, використовуючи тільки оператор if-else.
+
+
+Требования:
+1.	Метод getTranslationForDayOfWeek(String) має повертати переклад назви дня тижня з української на англійську.
+2.	У методі getTranslationForDayOfWeek(String) має використовуватися тільки оператор if-else.
+
+

@@ -1,0 +1,10 @@
+taskKey="ua.javarush.task.pro.task13.task1322"\n\nТипи багатокутників
+
+У класі Solution є метод getShapeNameByCountOfCorners(int), який повертає назву багатокутника залежно від кількості кутів. Твоє завдання &mdash; переписати метод, використовуючи тільки оператор switch.
+
+
+Требования:
+1.	Результат роботи методу getShapeNameByCountOfCorners(int) має залишитися незміннім.
+2.	У методі getShapeNameByCountOfCorners має використовуватися тільки оператор switch.
+
+

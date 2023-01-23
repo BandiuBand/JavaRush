@@ -1,0 +1,11 @@
+taskKey="ua.javarush.task.pro.task08.task0804"\n\nRandomizer
+
+У цій задачі тобі потрібно реалізувати метод generateNumber(), який повертатиме випадкове число від 0 до 99.
+У методі generateNumber() використай метод Math.random().
+
+
+Требования:
+1.	Клас Solution має містити публічний статичний метод generateNumber(), який повертає значення типу int.
+2.	Реалізуй метод generateNumber() згідно з умовою.
+
+

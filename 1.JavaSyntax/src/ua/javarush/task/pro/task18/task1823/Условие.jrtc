@@ -1,0 +1,14 @@
+taskKey="ua.javarush.task.pro.task18.task1823"\n\nЗ потоку даних до множини
+
+Потрібно, щоб метод getFilteredStrings(Stream&lt;String&gt;) перетворював вхідний потік рядків на множину рядків, довжина яких перевищує шість символів.
+Реалізуй його за допомогою методу collect() об&#39;єкта типу Stream&lt;String&gt;. Як параметр передай потрібний колектор
+(об&#39;єкт типу Collector&lt;Set&lt;String&gt;&gt;). Такий об&#39;єкт можна отримати, викликавши статичний метод toSet() класу Collectors.
+
+Метод main() під час тестування не перевіряється.
+
+
+Требования:
+1.	У публічному статичному методі getFilteredStrings(Stream&lt;String&gt;) потрібно викликати статичний метод toSet() класу Collectors.
+2.	Метод getFilteredStrings(Stream&lt;String&gt;) потрібно реалізувати згідно з умовою.
+
+

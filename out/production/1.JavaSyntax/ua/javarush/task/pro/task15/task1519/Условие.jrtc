@@ -1,0 +1,14 @@
+taskKey="ua.javarush.task.pro.task15.task1519"\n\nПоверхневе копіювання
+
+Напиши програму, яка зчитує з клавіатури шляхи до двох директорій і копіює файли з однієї
+директорії в іншу (тільки файли, директорії ігноруй).
+Використай відповідні методи класу Files: newDirectoryStream(), isRegularFile() або isDirectory(), copy().
+
+
+Требования:
+1.	Програма має зчитувати з консолі шлях до директорії.
+2.	У програмі слід використати відповідні методи класу Files: newDirectoryStream(), isRegularFile() або isDirectory(), copy().
+3.	Програма має копіювати файли з однієї директорії в іншу згідно з умовою.
+4.	Не використовуй такі класи пакету java.io: File, FileInputStream, FileOutputStream, FileReader, FileWriter.
+
+

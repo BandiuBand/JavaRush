@@ -1,0 +1,19 @@
+taskKey="ua.javarush.task.pro.task17.task1705"\n\nКосмічна одіссея ч. 3
+
+Зробімо наш попередній приклад більш правильним і універсальним.
+Порядок, в якому астронавти додаються до списку astronauts, не завжди відомий. Щоб правильно розподілити завдання між членами екіпажу,
+потрібно визначити, ким саме є астронавт. Для цього в методі runWorkingProcess() перебери в циклі всіх астронавтів,
+використовуючи оператор instanceof, визнач, ким саме є астронавт, і передай його як аргумент відповідному методу:
+Human &mdash; у метод pilot(Human human);
+Dog &mdash; у метод createDirection(Dog dog);
+Cat &mdash; у метод research(Cat cat).
+
+Метод runWorkingProcess() має працювати правильно незалежно від кількості астронавтів і порядку їх додавання до списку astronauts.
+
+
+Требования:
+1.	Метод runWorkingProcess() має викликати метод pilot(Human human) для кожного об&#39;єкта Human зі списку astronauts.
+2.	Метод runWorkingProcess() має викликати метод createDirection(Dog dog) для кожного об&#39;єкта Dog зі списку astronauts.
+3.	Метод runWorkingProcess() має викликати метод research(Cat cat) для кожного об&#39;єкта Cat зі списку astronauts.
+
+

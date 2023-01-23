@@ -1,0 +1,10 @@
+taskKey="ua.javarush.task.pro.task08.task0810"\n\nТаймер
+
+У класі Solution реалізуй метод setTimer(int, int, int, int, int), який засинає на певний час.
+Для цього використовуй відповідні методи java.util.concurrent.TimeUnit.
+
+
+Требования:
+1.	Метод setTimer(int, int, int, int, int) слід реалізувати згідно з умовою.
+
+

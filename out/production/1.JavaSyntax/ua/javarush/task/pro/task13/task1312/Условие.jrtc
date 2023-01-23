@@ -1,0 +1,10 @@
+taskKey="ua.javarush.task.pro.task13.task1312"\n\nArrayList і HashMap
+
+У класі Solution є метод getProgrammingLanguages, який повертає список мов програмування. Потрібно переписати цей метод, щоб він повертав HashMap&lt;Integer, String&gt;. Ключем у цій колекції буде індекс елемента в ArrayList.
+
+
+Требования:
+1.	Клас Solution має містити публічний статичний метод getProgrammingLanguages, який повертає значення типу HashMap&lt;Integer, String&gt;.
+2.	Метод getProgrammingLanguages() має повертати значення HashMap, що заповнено відповідно до списку.
+
+

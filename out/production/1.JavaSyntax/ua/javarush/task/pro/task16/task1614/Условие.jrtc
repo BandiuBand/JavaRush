@@ -1,0 +1,14 @@
+taskKey="ua.javarush.task.pro.task16.task1614"\n\nКінець часів
+
+У класі Solution реалізуй три методи:
+- у методі getMaxFromMilliseconds поверни максимальний Instant, який можна отримати за допомогою методу ofEpochMilli(long milliseconds);
+- у методі getMaxFromSeconds поверни максимальний Instant, який можна отримати за допомогою методу ofEpochSecond(long seconds);
+- у методі getMaxFromSecondsAndNanos поверни максимальний Instant, який можна отримати за допомогою методу ofEpochSecond(long seconds, long nanos).
+
+
+Требования:
+1.	Метод getMaxFromMilliseconds потрібно реалізувати згідно з умовою.
+2.	Метод getMaxFromSeconds потрібно реалізувати згідно з умовою.
+3.	Метод getMaxFromSecondsAndNanos потрібно реалізувати згідно з умовою.
+
+

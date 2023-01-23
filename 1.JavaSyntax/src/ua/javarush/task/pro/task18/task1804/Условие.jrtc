@@ -1,0 +1,17 @@
+taskKey="ua.javarush.task.pro.task18.task1804"\n\nЗнайомство з лямбда-виразом
+
+Перед тобою програма, що сортує список чисел за зростанням.
+Метод sortNumbers(ArrayList&lt;Integer&gt;) отримує список, елементи якого потрібно відсортувати.
+Для сортування використовується метод Collections.sort(ArrayList&lt;Integer&gt;, Comparator&lt;Integer&gt;),
+де параметри &mdash; це список чисел і компаратор.
+
+Твоє завдання &mdash; переписати реалізацію методу sortNumbers(ArrayList&lt;Integer&gt;) так, щоб замість внутрішнього
+анонімного класу Comparator&lt;Integer&gt; використовувався лямбда-вираз.
+Метод main() під час тестування не перевіряється.
+
+
+Требования:
+1.	Заміни внутрішній анонімний клас Comparator&lt;Integer&gt; на лямбда-вираз.
+2.	У методі sortNumbers(ArrayList&lt;Integer&gt;) потрібно сортувати список чисел за зростанням.
+
+

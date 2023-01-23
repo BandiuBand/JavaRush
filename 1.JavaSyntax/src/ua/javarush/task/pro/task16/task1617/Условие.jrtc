@@ -1,0 +1,9 @@
+taskKey="ua.javarush.task.pro.task16.task1617"\n\nЧасова глобалізація
+
+У методі main присвой значення змінній globalTime із використанням змінних localDateTime і zoneId.
+
+
+Требования:
+1.	Метод main має присвоїти значення змінній globalTime, використовуючи змінні localDateTime і zoneId.
+
+

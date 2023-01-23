@@ -1,0 +1,13 @@
+taskKey="ua.javarush.task.pro.task11.task1108"\n\nУтилітний калькулятор
+
+Виконай рефакторинг коду: вилучи з нього утилітні методи й перенеси їх в окремий клас.
+Для цього створи внутрішній статичний (вкладений) клас Calculator й перенеси в нього методи add, subtract, multiply і divide.
+Не забудь підправити виклики цих методів.
+
+
+Требования:
+1.	У класі Solution потрібно створити вкладений (static nested) клас Calculator.
+2.	Методи add, subtract, multiply і divide потрібно перенести до класу Calculator.
+3.	Метод main має містити виклики методів add, subtract, multiply і divide класу Calculator.
+
+

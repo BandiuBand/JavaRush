@@ -1,0 +1,25 @@
+taskKey="ua.javarush.task.pro.task18.task1805"\n\nПрощання з лямбда-виразом
+
+Перед тобою програма, що сортує список рядків за їх довжиною в порядку зростання.
+Це робить метод sortStringsByLength(ArrayList&lt;String&gt;). Для сортування рядків використовується метод
+Collections.sort(ArrayList&lt;String&gt;, Comparator&lt;String&gt;), який отримує список рядків і компаратор у вигляді лямбда-виразу.
+
+Твоє завдання &mdash; переписати реалізацію методу sortStringsByLength(ArrayList&lt;String&gt;) так, щоб замість
+лямбда-виразу використовувався клас StringComparator, який реалізує інтерфейс Comparator&lt;String&gt;,
+не змінюючи логіку роботи методу sortStringsByLength(ArrayList&lt;String&gt;).
+
+Тобто потрібно, щоб у класі StringComparator метод int compare(String s1, String s2) повертав числове значення згідно з цими умовами:
+- від&#39;ємне число, якщо довжина рядка s1 менша за довжину рядка s2;
+- додатне число, якщо довжина рядка s1 більша за довжину рядка s2;
+- 0, якщо довжина рядків s1 і s2 однакова.
+Метод main() під час тестування не перевіряється.
+
+
+Требования:
+1.	В окремому файлі потрібно створити публічний клас StringComparator, який реалізує інтерфейс Comparator&lt;String&gt;.
+2.	У класі StringComparator потрібно створити публічний метод int compare(String s1, String s2).
+3.	Метод compare(String s1, String s2) потрібно реалізувати згідно з умовою.
+4.	У методі sortStringsByLength(ArrayList&lt;String&gt;) потрібно сортувати список рядків за зростанням їх довжини.
+5.	У методі sortStringsByLength(ArrayList&lt;String&gt;) для сортування списку рядків за зростанням їх довжини потрібно використовувати власний компаратор (об&#39;єкт типу StringComparator).
+
+

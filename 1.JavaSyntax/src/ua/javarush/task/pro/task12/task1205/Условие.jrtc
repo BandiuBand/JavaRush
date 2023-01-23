@@ -1,0 +1,29 @@
+taskKey="ua.javarush.task.pro.task12.task1205"\n\nМетод ділення
+
+Реалізуй метод divide(double a, double b) так, щоб у консоль виводився результат ділення числа a на число b.
+Має бути виведено таке значення:
+1. Double.POSITIVE_INFINITY, якщо істинне будь-яке з таких тверджень:
+- a додатне і b дорівнює 0;
+- a дорівнює Double.POSITIVE_INFINITY і b &gt;= 0 і b не дорівнює Double.POSITIVE_INFINITY;
+- a дорівнює Double.NEGATIVE_INFINITY і b &lt; 0 і b не дорівнює Double.NEGATIVE_INFINITY;
+2. Double.NEGATIVE_INFINITY, якщо істинне будь-яке з таких тверджень:
+- a від&#39;ємне і b дорівнює 0;
+- a дорівнює Double.NEGATIVE_INFINITY і b &gt;= 0 і b не дорівнює Double.POSITIVE_INFINITY;
+- a дорівнює Double.POSITIVE_INFINITY і b &lt; 0 і b не дорівнює Double.NEGATIVE_INFINITY;
+3. Double.NaN, якщо істинне будь-яке з таких тверджень:
+- a дорівнює 0 і b дорівнює 0;
+- принаймні один із операндів дорівнює Double.NaN;
+- a дорівнює Double.POSITIVE_INFINITY і b дорівнює Double.POSITIVE_INFINITY;
+- a дорівнює Double.POSITIVE_INFINITY і b дорівнює Double.NEGATIVE_INFINITY;
+- a дорівнює Double.NEGATIVE_INFINITY і b дорівнює Double.POSITIVE_INFINITY;
+- a дорівнює Double.NEGATIVE_INFINITY і b дорівнює Double.NEGATIVE_INFINITY;
+4. Інакше &mdash; виводити результат ділення a на b.
+
+
+Требования:
+1.	Метод divide(double a, double b) має виводити в консоль результат ділення числа a на число b.
+2.	Метод divide(double a, double b) має виводити в консоль &quot;Infinity&quot; згідно з пунктом 1 умови.
+3.	Метод divide(double a, double b) має виводити в консоль &quot;-Infinity&quot; згідно з пунктом 2 умови.
+4.	Метод divide(double a, double b) має виводити в консоль &quot;NaN&quot; згідно з пунктом 3 умови.
+
+

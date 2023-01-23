@@ -1,0 +1,14 @@
+taskKey="ua.javarush.task.pro.task14.task1411"\n\nРозпакування винятків
+
+У методі main перехопи RuntimeException. Визнач, який виняток в ньому збережено.
+Якщо це FileNotFoundException, виведи в консоль повідомлення &quot;Не вдалося прочитати файл.&quot;,
+а якщо FileSystemException &mdash; &quot;Не вдалося записати у файл.&quot;.
+
+
+Требования:
+1.	У методі main має перехоплюватися RuntimeException.
+2.	Потрібно вивести &quot;Не вдалося прочитати файл.&quot;, якщо в RuntimeException упаковано FileNotFoundException.
+3.	Потрібно вивести &quot;Не вдалося записати у файл.&quot;, якщо в RuntimeException упаковано FileSystemException.
+4.	Клас FileManager не змінюй.
+
+

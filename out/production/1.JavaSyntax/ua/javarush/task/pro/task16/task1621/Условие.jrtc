@@ -1,0 +1,11 @@
+taskKey="ua.javarush.task.pro.task16.task1621"\n\nНапиши шаблон
+
+Ініціалізуй статичну змінну dateTimeFormatter. Подумай, який шаблон для неї задати, щоб можна було розпарсити рядок timeString.
+У методі main створи об&#39;єкт LocalDateTime, використовуючи рядок timeString і твій шаблон dateTimeFormatter.
+
+
+Требования:
+1.	Змінну dateTimeFormatter має бути ініціалізовано під час оголошення.
+2.	Метод main має створити об&#39;єкт LocalDateTime, а для цього розпарсити рядок timeString за допомогою шаблону dateTimeFormatter.
+
+

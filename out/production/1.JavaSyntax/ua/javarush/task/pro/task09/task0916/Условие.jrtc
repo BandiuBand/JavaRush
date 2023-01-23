@@ -1,0 +1,13 @@
+taskKey="ua.javarush.task.pro.task09.task0916"\n\nString.format()
+
+Реалізуй метод format(String name, int salary), який повертатиме такий рядок:
+Мене звати &lt;name&gt;. Я зароблятиму $&lt;salary&gt; на місяць.
+
+Скористайся для цього методом String.format().
+
+
+Требования:
+1.	Метод format(String, int) має використовувати метод String.format().
+2.	Метод format(String, int) має повертати рядок згідно з умовою задачі.
+
+

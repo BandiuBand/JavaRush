@@ -1,0 +1,12 @@
+taskKey="ua.javarush.task.pro.task14.task1409"\n\nПропускаємо крізь себе
+
+Зроби так, щоб програма компілювалася, не використовуючи try-catch.
+
+
+Требования:
+1.	Метод main не повинен містити блок try-catch.
+2.	Метод main має кидати виняток.
+3.	Метод main має викликати метод generateLuckyNumber().
+4.	Метод generateLuckyNumber змінювати не можна.
+
+

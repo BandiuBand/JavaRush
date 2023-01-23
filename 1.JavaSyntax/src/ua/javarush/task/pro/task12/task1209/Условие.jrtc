@@ -1,0 +1,16 @@
+taskKey="ua.javarush.task.pro.task12.task1209"\n\nБухгалтерія
+
+У класі Solution є список працівників waitingEmployees, які чекають на зарплату, і список працівників alreadyGotSalaryEmployees, які вже її отримали. Потрібно реалізувати метод paySalary(String). Як аргумент у метод слід передати ім&#39;я працівника, котрий бажає отримати зарплату.
+Метод має перевірити наявність працівника в списку waitingEmployees, і якщо він ще не отримав зарплату, видати її:
+1. Якщо параметр методу paySalary(String) дорівнює null, нічого робити не треба.
+2. Додати ім&#39;я працівника в список alreadyGotSalaryEmployees.
+3. У списку waitingEmployees замінити ім&#39;я працівника на null.
+
+
+Требования:
+1.	Метод paySalary(String) має додавати в список alreadyGotSalaryEmployees ім&#39;я працівника, якщо воно є в списку waitingEmployees.
+2.	Метод paySalary(String) має заміняти ім&#39;я працівника на значення null, якщо воно є в списку waitingEmployees.
+3.	Метод paySalary(String) не повинен змінювати списки waitingEmployees і alreadyGotSalaryEmployees, якщо переданого імені немає в списку waitingEmployees.
+4.	Якщо в метод paySalary(String) передається null, метод не повинен додавати це значення у waitingEmployees або alreadyGotSalaryEmployees.
+
+

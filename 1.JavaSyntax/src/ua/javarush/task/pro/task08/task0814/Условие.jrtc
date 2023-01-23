@@ -1,0 +1,14 @@
+taskKey="ua.javarush.task.pro.task08.task0814"\n\nПрапори
+
+Реалізуй методи:
+1. setFlag(int number, int flagPos) &mdash; встановлює значення &quot;1&quot; біту з індексом flagPos числа number і повертає нове значення.
+2. resetFlag(int number, int flagPos) &mdash; встановлює значення &quot;0&quot; біту з індексом flagPos числа number і повертає нове значення.
+3. checkFlag(int number, int flagPos) &mdash; перевіряє значення біта з індексом flagPos числа number і повертає true, якщо значення &quot;1&quot;, і false, якщо &quot;0&quot;.
+
+
+Требования:
+1.	Реалізуй метод setFlag(int, int) згідно з умовою.
+2.	Реалізуй метод resetFlag(int, int) згідно з умовою.
+3.	Реалізуй метод checkFlag(int, int) згідно з умовою.
+
+

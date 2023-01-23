@@ -1,0 +1,16 @@
+taskKey="ua.javarush.task.pro.task13.task1307"\n\nВивчаємо методи класу Collections, частина 2
+
+У класі Solution оголошено методи: reverse(ArrayList&lt;Integer&gt;), sort(ArrayList&lt;Integer&gt;), rotate(ArrayList&lt;Integer&gt;, int), shuffle(ArrayList&lt;Integer&gt;). Ти маєш розібратися, що саме роблять ці методи, і переписати їхній код, використовуючи тільки відповідні методи класу Collections.
+
+
+Требования:
+1.	Клас Solution має містити публічний статичний метод reverse(ArrayList&lt;Integer&gt;), який не повертає жодного значення (тип void).
+2.	Клас Solution має містити публічний статичний метод sort(ArrayList&lt;Integer&gt;), який не повертає жодного значення (тип void).
+3.	Клас Solution має містити публічний статичний метод rotate(ArrayList&lt;Integer&gt;, int), який не повертає жодного значення (тип void).
+4.	Клас Solution має містити публічний статичний метод shuffle(ArrayList&lt;Integer&gt;), який не повертає жодного значення (тип void).
+5.	Метод reverse(ArrayList&lt;Integer&gt;) потрібно переписати, використовуючи метод reverse класу Collections.
+6.	Метод sort(ArrayList&lt;Integer&gt;) потрібно переписати, використовуючи метод sort класу Collections.
+7.	Метод rotate(ArrayList&lt;Integer&gt;, int) потрібно переписати, використовуючи метод rotate класу Collections.
+8.	Метод shuffle(ArrayList&lt;Integer&gt;) потрібно переписати, використовуючи метод shuffle класу Collections.
+
+

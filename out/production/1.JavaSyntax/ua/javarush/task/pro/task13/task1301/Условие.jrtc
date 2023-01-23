@@ -1,0 +1,11 @@
+taskKey="ua.javarush.task.pro.task13.task1301"\n\nПовертаємо своє
+
+У класі Solution є метод arrayToHashSet(String[]), який має з переданого масиву повернути HashSet&lt;String&gt; з тими самими елементами.
+Метод main у перевірці не використовується.
+
+
+Требования:
+1.	Клас Solution має містити метод public static HashSet&lt;String&gt; arrayToHashSet(String[]).
+2.	Метод arrayToHashSet(String[]) слід реалізувати згідно з умовою.
+
+

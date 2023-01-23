@@ -1,0 +1,14 @@
+taskKey="ua.javarush.task.pro.task17.task1706"\n\nХижаки й травоїдні
+
+Перед тобою 4 класи тварин &mdash; Cow, Lion, Wolf і Elephant. Корова (Cow) і слон (Elephant) є травоїдними, тому вони успадковуються від класу Herbivore.
+А лев (Lion) і вовк (Wolf) є хижаками, тому вони успадковуються від класу Predator. Своєю чергою класи Herbivore і Predator успадковано від класу Animal.
+У класі Solution реалізуй метод printRation(Animal animal), який має виводити в консоль раціон переданої тварини:
+- якщо тварина &mdash; хижак, потрібно вивести &quot;Любить м&#39;ясо&quot;;
+- якщо тварина &mdash; травоїдна, потрібно вивести &quot;Любить траву&quot;.
+
+
+Требования:
+1.	Метод printRation(Animal animal) має виводити &quot;Любить м&#39;ясо&quot;, якщо тварина, передана як аргумент, є хижаком (Predator).
+2.	Метод printRation(Animal animal) має виводити &quot;Любить траву&quot;, якщо тварина, передана як аргумент, є травоїдною (Herbivore).
+
+

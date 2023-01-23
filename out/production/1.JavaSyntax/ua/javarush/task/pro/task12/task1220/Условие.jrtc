@@ -1,0 +1,19 @@
+taskKey="ua.javarush.task.pro.task12.task1220"\n\nМисливці за привидом: у гонитві за типами
+
+У методі main створюється список, заповнюється різними об&#39;єктами й передається в метод checkElementsType(ArrayList&lt;Object&gt;).
+Твоє завдання &mdash; реалізувати цей метод, який має визначити тип кожного елемента списку, а також:
+1. Для типу String викликати printString();
+2. Для типу Integer викликати printInteger();
+3. Для типу Integer[] викликати printIntegerArray();
+4. Для решти типів викликати printUnknown().
+Метод main у перевірці не використовується.
+
+
+Требования:
+1.	Не змінювати оголошення й реалізацію методу printString(String).
+2.	Не змінювати оголошення й реалізацію методу printInteger(Integer).
+3.	Не змінювати оголошення й реалізацію методу printIntegerArray(Integer[]).
+4.	Не змінювати оголошення й реалізацію методу printUnknown(Object).
+5.	Метод checkElementsType(ArrayList&lt;Object&gt;) має працювати згідно з умовою.
+
+

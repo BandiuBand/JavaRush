@@ -1,0 +1,17 @@
+taskKey="ua.javarush.task.pro.task14.task1404"\n\nПомічник викладача-3
+
+Програма зчитує з консолі номер, знаходить у журналі відповідного студента й викликає його (її) до дошки.
+Методи parseInt і get можуть генерувати винятки NumberFormatException і ArrayIndexOutOfBoundsException.
+Обгорни їх одним блоком try із двома блоками catch.
+Блок catch для NumberFormatException має виводити повідомлення: &quot;Потрібно ввести ціле число&quot;, а блок catch
+для ArrayIndexOutOfBoundsException має виводити повідомлення: &quot;Студента з таким номером не існує&quot;.
+
+
+Требования:
+1.	Програма має продовжити роботу в разі виникнення NumberFormatException.
+2.	Програма має виводити повідомлення: &quot;Потрібно ввести ціле число&quot; кожного разу під час виникнення NumberFormatException.
+3.	Програма має продовжити роботу в разі виникнення ArrayIndexOutOfBoundsException.
+4.	Програма має виводити повідомлення: &quot;Студента з таким номером не існує&quot; кожного разу під час виникнення ArrayIndexOutOfBoundsException.
+5.	Програма має містити один блок try і два блоки catch.
+
+

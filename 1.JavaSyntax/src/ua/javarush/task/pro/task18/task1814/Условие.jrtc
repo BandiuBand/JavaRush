@@ -1,0 +1,13 @@
+taskKey="ua.javarush.task.pro.task18.task1814"\n\nБез повторів
+
+Метод getDistinct(ArrayList&lt;String&gt;) отримує список слів, який містить повтори. Твоє завдання &mdash; реалізувати цей метод так,
+щоб він повертав потік слів без повторів (кожне слово &mdash; лише по одному разу).
+У цьому тобі допоможе метод distinct() об&#39;єкта типу Stream&lt;String&gt;.
+Метод main() під час тестування не перевіряється.
+
+
+Требования:
+1.	У публічному статичному методі getDistinct(ArrayList&lt;String&gt;) потрібно викликати метод distinct() об&#39;єкта типу Stream&lt;String&gt;.
+2.	Потрібно, щоб метод getDistinct(ArrayList&lt;String&gt;) повертав потік слів без повторів.
+
+

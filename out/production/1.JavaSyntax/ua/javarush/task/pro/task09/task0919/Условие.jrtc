@@ -1,0 +1,10 @@
+taskKey="ua.javarush.task.pro.task09.task0919"\n\nПеревертання рядка
+
+Використовуючи StringBuilder в методі reverseString(String), переверни рядок, отриманий як параметр.
+
+
+Требования:
+1.	У методі reverseString(String) потрібно використовувати StringBuilder.
+2.	Метод reverseString(String) має повертати перевернутий рядок.
+
+

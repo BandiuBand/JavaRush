@@ -1,0 +1,14 @@
+taskKey="ua.javarush.task.pro.task14.task1413"\n\nКоктейль
+
+Якщо запустити програму, вона закінчується винятком. Однак із тексту винятку в консолі незрозуміло, де він виник. У цій задачі тобі потрібно:
+- обгорнути блоками try-catch код методів addIce, addVodka, addJuice і addOrange;
+- у блоках catch викликати метод printBugMethodName і передати в нього stack trace.
+Якщо зробиш все правильно, під час запуску програми на екран буде виведено імена методів, в яких виникає виняток.
+
+
+Требования:
+1.	Потрібно обгорнути блоками try-catch код методів addIce, addVodka, addJuice і addOrange.
+2.	У методах addIce, addVodka, addJuice і addOrange у блоках catch потрібно розмістити одну команду &mdash; виклик методу printBugMethodName.
+3.	Під час кожного виклику методу printBugMethodName потрібно передавати в нього поточний stack race.
+
+

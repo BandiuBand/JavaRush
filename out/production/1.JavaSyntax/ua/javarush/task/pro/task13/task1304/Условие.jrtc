@@ -1,0 +1,13 @@
+taskKey="ua.javarush.task.pro.task13.task1304"\n\nПеретворюємо ітератор на цикл for-each
+
+У класі Solution є методи printHashSet(HashSet&lt;String&gt;) і printList(ArrayList&lt;String&gt;), які виводять усі елементи з переданих колекцій &mdash; списку та множини &mdash; з нового рядка. Твоє завдання &mdash; переписати ці методи, використовуючи цикл for-each.
+Метод main у перевірці не використовується.
+
+
+Требования:
+1.	Клас Solution має містити публічний статичний метод printHashSet(HashSet&lt;String&gt;), який не повертає жодного значення (тип void).
+2.	Клас Solution має містити публічний статичний метод printList(ArrayList&lt;String&gt;), який не повертає жодного значення (тип void).
+3.	Метод printHashSet(HashSet&lt;String&gt;) має виводити всі елементи за допомогою циклу for-each.
+4.	Метод printList(ArrayList&lt;String&gt;) має виводити всі елементи за допомогою циклу for-each.
+
+

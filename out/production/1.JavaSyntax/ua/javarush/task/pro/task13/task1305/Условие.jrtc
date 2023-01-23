@@ -1,0 +1,19 @@
+taskKey="ua.javarush.task.pro.task13.task1305"\n\nЗнайти і знешкодити
+
+У класі Solution оголошено методи, які слід реалізувати таким чином:
+1. removeBugWithFor(ArrayList&lt;String&gt;) &mdash; має видалити зі списку рядок, який містить слово bug, за допомогою циклу for і лічильника.
+2. removeBugWithWhile(ArrayList&lt;String&gt;) &mdash; має видалити зі списку рядок, який містить слово bug, за допомогою циклу while і методу iterator().
+3. removeBugWithCopy(ArrayList&lt;String&gt;) &mdash; має видалити зі списку рядок, який містить слово bug, за допомогою циклу for-each і копії списку.
+Під час пошуку слова bug регістр не враховується.
+Метод main реалізовано для вашого коду, і він у перевірці не використовується.
+
+
+Требования:
+1.	Клас Solution має містити публічний статичний метод removeBugWithFor(ArrayList&lt;String&gt;), який не повертає жодного значення (тип void).
+2.	Клас Solution має містити публічний статичний метод removeBugWithWhile(ArrayList&lt;String&gt;), який не повертає жодного значення (тип void).
+3.	Клас Solution має містити публічний статичний метод removeBugWithCopy(ArrayList&lt;String&gt;), який не повертає жодного значення (тип void).
+4.	Метод removeBugWithFor(ArrayList&lt;String&gt;) має працювати згідно з умовою.
+5.	Метод removeBugWithWhile(ArrayList&lt;String&gt;) має працювати згідно з умовою.
+6.	Метод removeBugWithCopy(ArrayList&lt;String&gt;) має працювати згідно з умовою.
+
+

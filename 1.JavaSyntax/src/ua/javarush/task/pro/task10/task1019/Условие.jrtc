@@ -1,0 +1,13 @@
+taskKey="ua.javarush.task.pro.task10.task1019"\n\nПоточний рік
+
+У класі Solution є поле currentYear, яке має ініціалізуватися значенням поточного року
+(Calendar.getInstance().get(Calendar.YEAR)) під час створення нового об&#39;єкта типу Solution.
+Тобі потрібно знайти помилку й виправити її, щоб під час створення об&#39;єкта класу Solution поле currentYear ініціалізувалося правильно.
+
+
+Требования:
+1.	Клас Solution має містити приватне нестатичне поле currentYear типу int.
+2.	У класі Solution має бути гетер getCurrentYear для поля currentYear.
+3.	Під час створення об&#39;єкта класу Solution поле currentYear має ініціалізуватися значенням поточного року (використовуй метод Calendar.getInstance().get(Calendar.YEAR)).
+
+

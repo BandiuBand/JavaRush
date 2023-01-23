@@ -1,0 +1,15 @@
+taskKey="ua.javarush.games.minigames.mini01"\n\nСтворюємо головний клас гри
+
+Щоб запустити гру, створи клас FirstGame і успадкуй його від класу Game.
+Також перевизнач метод &quot;ігрового рушія&quot; &mdash; initialize().
+Спробуй запустити на виконання клас FirstGame і подивись, що вийшло.
+
+
+Требования:
+1.	Має бути створено клас FirstGame.
+2.	Клас FirstGame має бути публічним.
+3.	Клас FirstGame має бути спадкоємцем класу Game.
+4.	У класі FirstGame потрібно перевизначити метод initialize() батьківського класу Game.
+5.	У класі FirstGame має бути імпорт класу com.javarush.engine.cell.Game
+
+

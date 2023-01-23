@@ -1,0 +1,12 @@
+taskKey="ua.javarush.task.pro.task14.task1410"\n\nОбгортання винятків
+
+У методі copyFile перехопи винятки, що їх кидають методи readFile і writeFile.
+Перехоплені винятки обгорни винятком RuntimeException і прокинь далі.
+
+
+Требования:
+1.	У методі copyFile мають перехоплюватися винятки FileNotFoundException і FileSystemException.
+2.	Усі перехоплені винятки потрібно обгортати винятком RuntimeException і прокидати далі.
+3.	Метод copyFile не повинен містити винятків у секції throws.
+
+

@@ -1,0 +1,16 @@
+taskKey="ua.javarush.task.pro.task13.task1308"\n\nВивчаємо методи класу Collections, частина 3
+
+У класі Solution оголошено методи: min(ArrayList&lt;Integer&gt;), max(ArrayList&lt;Integer&gt;), frequency(ArrayList&lt;Integer&gt;, Integer), binarySearch(ArrayList&lt;Integer&gt;, Integer). Ти маєш розібратися, що саме роблять ці методи, і переписати їхній код, використовуючи тільки відповідні методи класу Collections.
+
+
+Требования:
+1.	Клас Solution має містити публічний статичний метод min(ArrayList&lt;Integer&gt;), який повертає значення Integer.
+2.	Клас Solution має містити публічний статичний метод max(ArrayList&lt;Integer&gt;), який повертає значення Integer.
+3.	Клас Solution має містити публічний статичний метод frequency(ArrayList&lt;Integer&gt;, Integer), який повертає значення типу int.
+4.	Клас Solution має містити публічний статичний метод binarySearch(ArrayList&lt;Integer&gt;, Integer), який повертає значення типу int.
+5.	Метод min(ArrayList&lt;Integer&gt;) потрібно переписати, використовуючи метод min класу Collections.
+6.	Метод max(ArrayList&lt;Integer&gt;) потрібно переписати, використовуючи метод max класу Collections.
+7.	Метод frequency(ArrayList&lt;Integer&gt;, Integer) потрібно переписати, використовуючи метод frequency класу Collections.
+8.	Метод binarySearch(ArrayList&lt;Integer&gt;, Integer) потрібно переписати, використовуючи метод binarySearch класу Collections.
+
+

@@ -1,0 +1,20 @@
+taskKey="ua.javarush.games.minigames.mini05"\n\nКольори веселки
+
+Попрацюймо з методом setCellColor(int, int, Color), який зафарбовуватиме клітину за переданими координатами.
+Розпочнімо малювати веселку. Потрібно створити ігрове поле розміром 10x7 у методі initialize() і зафарбувати кожен рядок
+у свій колір за допомогою методу setCellColor(int, int, Color). Порядок кольорів зверху донизу такий:
+Color.RED
+Color.ORANGE
+Color.YELLOW
+Color.GREEN
+Color.BLUE
+Color.INDIGO
+Color.VIOLET
+
+
+Требования:
+1.	У класі RainbowGame потрібно перевизначити метод initialize() батьківського класу Game.
+2.	У методі initialize() потрібно викликати метод setScreenSize(int, int) з аргументами 10 і 7.
+3.	У методі initialize() за допомогою методу setCellColor(int, int, Color) розфарбуй ігрове поле в кольори веселки.
+
+
